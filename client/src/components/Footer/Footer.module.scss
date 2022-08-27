@@ -1,0 +1,31 @@
+
+
+.footer{
+
+
+   .footer_menu{
+      display: grid;
+      grid-template-columns: 2fr auto 2fr;
+      margin: 90px 0 40px 0;
+
+      .menu{
+         display: flex;
+         list-style: none;
+         gap: 40px;
+      }
+      .menu li{
+         cursor: pointer;
+      }
+      .menu.left{
+         justify-content: flex-start;
+      }
+      .menu.right{
+         justify-content: flex-end;
+      }
+   }
+
+   .bottom_p{
+      text-align: center;
+      margin-bottom: 30px;
+   }
+}

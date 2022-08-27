@@ -1,0 +1,39 @@
+
+body{
+   font-family: 'Inter';
+}
+
+.container{
+   max-width: 1440px;
+   margin: 0 auto;
+}
+
+.btns {
+   box-sizing: border-box;
+   display: flex;
+   gap: 30px;
+}
+
+
+.wrapper {
+   .main_bg{
+      position: absolute;
+      width: 99vw;
+      height: 100vh;
+      overflow: hidden;
+      z-index: -10;
+      top: 150px;
+      padding-bottom: 200px;
+
+      .line_bg{
+         position: absolute;
+         transform: rotate(-5deg);
+         width: 105%;
+         left: 0;
+         right: 0;
+      }
+      .line_bg.line_bg_bottom{
+         margin-top: 30px;
+      }
+   }
+}
